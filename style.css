@@ -1,0 +1,178 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(32, 32, 40);
+    color: #fff;
+    max-width: 1400px;
+    margin: 0 auto;
+    text-decoration:none;
+}
+
+header li a{
+    font-family: 'Bebas Neue', cursive;
+}
+
+main h2{
+    font-family: 'Merriweather', serif;
+}
+
+.logo {
+    height: 150px;
+}
+
+.cabe{
+    display: flex;
+    justify-content: fle;
+}
+
+span, h3{
+    color: rgb(132,15,209);
+}
+
+
+.flex {
+    text-align: center;
+}
+
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav a {
+    color: #F2FFFC;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+header nav li{
+    list-style:none;
+    padding: 40px;
+    margin-left: 200px;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+.inscreva-se{
+    font-size: 36px;
+    line-height: 75px;
+    padding-bottom: 30px ;
+    padding-top: 100px;
+}
+
+
+.social img{
+    height: 25px;
+    margin-left: none;
+}
+
+.social li{
+    display: inline;
+    margin-right: 8px;
+}
+
+.social li a {
+    text-decoration: none;
+}
+
+
+.logos li{
+    display: inline;
+    margin-right: 10px;
+}
+
+a:hover{
+    color: rgb(132,15,209);
+    transition: 0.4s all;
+}
+
+
+section {
+    padding: 24px 0;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+section h3 {
+    margin-bottom: 16px;
+}
+
+
+#contact .container {
+    display: inline;
+}
+
+
+.contato{
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea{
+    resize: none;
+    height: 180px;
+}
+
+form button {
+    height: 50px;
+    background-color: rgb(132,15,209);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover{
+    background-color: rgb(132,15,209);
+}
+
+input:focus, textarea:focus {
+    outline-color: rgb(132,15,209);
+}
+
+footer {
+    color: rgb(190, 190, 190);
+
+}
+.movie{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.movie h2{
+    padding-bottom: 12px;
+    color: rgb(132,15,209);
+}
+
+
+#contact h2{
+    color: rgb(132,15,209);
+}
+
+
